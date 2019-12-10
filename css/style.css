@@ -5,18 +5,21 @@
  *
  * Made By MaterializeCSS.com
  */
+.primary-color {
+  background: #3281a8; }
+
 nav ul a,
 nav .brand-logo {
-  color: #444; }
+  color: white; }
 
 p {
   line-height: 2rem; }
 
 .sidenav-trigger {
-  color: #26a69a; }
+  color: white; }
 
 .parallax-container {
-  min-height: 380px;
+  min-height: 580px;
   line-height: 0;
   height: auto;
   color: rgba(255, 255, 255, 0.9); }
