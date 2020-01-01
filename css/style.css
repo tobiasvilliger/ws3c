@@ -47,3 +47,95 @@ footer.page-footer {
   margin: 0; }
 
 /*# sourceMappingURL=style.css.map */
+
+nav .sidenav-trigger {
+  float: right;
+}
+
+.logo{
+  height: 56px;
+}
+
+
+nav .brand-logo {
+  left: 25%;
+}
+.results{
+  font-size: 4pt;
+}
+
+h5{
+  font-size: 12pt;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: verdana;
+  margin-top: 10%;
+}
+
+h6{
+  font-size: 12pt;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: verdana;
+  color: white;
+}
+
+p{
+  font-family: verdana;
+  font-size: 8pt;
+  color: white;
+  line-height: 1rem;
+}
+
+.table-title{
+  color: white;
+  text-transform: uppercase;
+}
+
+.btn{
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 5%;
+  background-color: orange;
+  font-weight: bold;
+}
+
+.news{
+  padding: 3% 20% 3% 3%;
+}
+
+tr{
+  line-height: 1rem;
+}
+
+td, th{
+  padding: 5px 5px;
+}
+
+table.striped > tbody > tr:nth-child(even) {
+  background-color: rgba(68, 138, 255, 0.2);
+}
+
+table.striped > tbody > tr:nth-child(odd) {
+  background-color: white;
+}
+
+.sponsoren{
+  width: 100%;
+}
+
+.footer-copyright{
+  height: 56px;
+  position: relative;
+}
+
+.footer{
+  margin: 0 0% 0 5% ;
+  max-width: 1280px;
+  width: 90%;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
