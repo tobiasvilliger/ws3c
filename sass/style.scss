@@ -8,6 +8,9 @@
 // colors
 $primary-color: #448aff;
 
+// distance
+$dist: 12px;
+
 // fonts
 $verdana: Verdana, Geneva, sans-serif;
 $bold: 700;
@@ -111,6 +114,16 @@ ul#nav-mobile {
 
 .event-date {
   font-size: $extra-large;
+  line-height: $extra-large;
+  font-weight: $bold;
+  margin: $dist;
+}
+
+.event-month {
+  font-size: $large;
+  line-height: $large;
+  font-weight: $bold;
+  text-transform: uppercase;
 }
 
 .team-container {
@@ -192,7 +205,6 @@ p {
   justify-content: space-between;
   flex-wrap: wrap;
   align-items: center;
-
 }
 
 .button-wrap {
@@ -210,7 +222,7 @@ table.striped > tbody > tr:nth-child(odd) {
 .sponsoren {
   display: inline-block;
   max-width: 80%;
-margin:auto;
+  margin: auto;
 }
 
 .footer-copyright {
