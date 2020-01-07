@@ -7,6 +7,7 @@
  */
 // colors
 $primary-color: #448aff;
+$white: #fff;
 
 // fonts
 $verdana: Verdana, Geneva, sans-serif;
@@ -16,6 +17,7 @@ $medium: 500;
 $small: 1.3rem;
 $regular: 1.5rem;
 $large: 2.4rem;
+$exta-large: 6rem;
 
 .primary-color {
   background: $primary-color;
@@ -36,6 +38,11 @@ p {
 
 .sidenav-trigger {
   color: white;
+}
+
+.event-lead {
+  text-align: center;
+  color: $white;
 }
 
 .parallax-container {
@@ -85,7 +92,7 @@ nav .sidenav-trigger {
 }
 
 .team-container {
-  width: calc((100% - 40px)/2);
+  width: calc((100% - 40px) / 2);
   height: 350px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -95,32 +102,33 @@ nav .sidenav-trigger {
   background-position: center;
 }
 
-td, th {
-    font-size: $small;
-    padding: 15px;
+td,
+th {
+  font-size: $small;
+  padding: 15px;
 }
 
 @media only screen and (max-width: 768px) {
-.team-container {
-  width: calc((100% - 40px)/2);
-  height: 200px;
-}
+  .team-container {
+    width: calc((100% - 40px) / 2);
+    height: 200px;
+  }
 
-td, th {
+  td,
+  th {
     padding: 10px;
-}
+  }
 }
 
 @media only screen and (max-width: 576px) {
   .team-container {
     width: 100%;
-
   }
-  td, th {
-      padding: 5px;
+  td,
+  th {
+    padding: 5px;
   }
 }
-
 
 h1 {
   font-size: $large;
@@ -164,6 +172,21 @@ p {
 
 .news {
   padding: 3% 20% 3% 3%;
+}
+
+.upcoming {
+  padding: 3%;
+  text-align: center;
+}
+
+.event-lead {
+  font-size: $medium;
+  font-weight: $bold;
+}
+
+.event-date {
+  font-size: $exta-large;
+  font-weight: $bold;
 }
 
 tr {
