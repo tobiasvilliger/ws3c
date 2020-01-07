@@ -6,7 +6,7 @@
  * Made By MaterializeCSS.com
  */
 // colors
-$primary-color: #3281a8;
+$primary-color: #448aff;
 
 // fonts
 $verdana: Verdana, Geneva, sans-serif;
@@ -28,6 +28,10 @@ nav .brand-logo {
 
 p {
   line-height: 2rem;
+}
+
+.text-negative {
+  color: white;
 }
 
 .sidenav-trigger {
@@ -71,15 +75,52 @@ nav .sidenav-trigger {
 }
 
 .logo {
-  height: 56px;
+  height: 46px;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
-nav .brand-logo {
-  left: 25%;
-}
 .results {
   font-size: 4pt;
 }
+
+.team-container {
+  width: calc((100% - 40px)/2);
+  height: 350px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin-bottom: 20px;
+  display: inline-block;
+  background-position: center;
+}
+
+td, th {
+    font-size: $small;
+    padding: 15px;
+}
+
+@media only screen and (max-width: 768px) {
+.team-container {
+  width: calc((100% - 40px)/2);
+  height: 200px;
+}
+
+td, th {
+    padding: 10px;
+}
+}
+
+@media only screen and (max-width: 576px) {
+  .team-container {
+    width: 100%;
+
+  }
+  td, th {
+      padding: 5px;
+  }
+}
+
 
 h1 {
   font-size: $large;
@@ -90,17 +131,21 @@ h1 {
 }
 
 h2 {
-  font-size: $medium;
+  font-size: $regular;
   text-transform: uppercase;
   font-weight: $bold;
   font-family: $verdana;
   color: white;
+  position: absolute;
+  bottom: 0;
+  background-color: orange;
+  padding: 10px 5px 10px 5px;
 }
 
 p {
   font-family: $verdana;
   font-size: $small;
-  color: white;
+  color: black;
 }
 
 .table-title {
@@ -112,7 +157,7 @@ p {
   position: relative;
   left: 50%;
   transform: translateX(-50%);
-  margin-top: 5%;
+  margin-top: 20px;
   background-color: orange;
   font-weight: bold;
 }
@@ -123,11 +168,6 @@ p {
 
 tr {
   line-height: 1rem;
-}
-
-td,
-th {
-  padding: 5px 5px;
 }
 
 table.striped > tbody > tr:nth-child(even) {
@@ -144,16 +184,6 @@ table.striped > tbody > tr:nth-child(odd) {
 
 .footer-copyright {
   height: 56px;
-}
-
-.footer {
-  margin: 0 0% 0 5%;
-  max-width: 1280px;
-  width: 90%;
-  position: absolute;
-  top: 50%;
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
 }
 
 .icon-block {

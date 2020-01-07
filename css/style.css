@@ -6,122 +6,180 @@
  * Made By MaterializeCSS.com
  */
 .primary-color {
-  background: #3281a8; }
+  background: #448aff;
+}
 
 nav ul a,
 nav .brand-logo {
-  color: white; }
+  color: white;
+}
 
 p {
-  line-height: 2rem; }
+  line-height: 2rem;
+}
+
+.text-negative {
+  color: white;
+}
 
 .sidenav-trigger {
-  color: white; }
+  color: white;
+}
 
 .parallax-container {
   min-height: 580px;
   line-height: 0;
   height: auto;
-  color: rgba(255, 255, 255, 0.9); }
+  color: rgba(255, 255, 255, 0.9);
+}
 
 .parallax-container .section {
-  width: 100%; }
+  width: 100%;
+}
 
 @media only screen and (max-width: 992px) {
   .parallax-container .section {
     position: absolute;
-    top: 40%; }
+    top: 40%;
+  }
 
   #index-banner .section {
-    top: 10%; } }
+    top: 10%;
+  }
+}
 @media only screen and (max-width: 600px) {
   #index-banner .section {
-    top: 0; } }
+    top: 0;
+  }
+}
 .primary-color {
-  background: #3281a8; }
+  background: #3281a8;
+}
 
 /*# sourceMappingURL=style.css.map */
 nav .sidenav-trigger {
-  float: right; }
+  float: right;
+}
 
 .logo {
-  height: 56px; }
-
-nav .brand-logo {
-  left: 25%; }
+  height: 46px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
 
 .results {
-  font-size: 4pt; }
+  font-size: 4pt;
+}
 
+.team-container {
+  width: calc((100% - 40px)/2);
+  height: 350px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin-bottom: 20px;
+  display: inline-block;
+  background-position: center;
+}
+
+td, th {
+  font-size: 1.3rem;
+  padding: 15px;
+}
+
+@media only screen and (max-width: 768px) {
+  .team-container {
+    width: calc((100% - 40px)/2);
+    height: 200px;
+  }
+
+  td, th {
+    padding: 10px;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .team-container {
+    width: 100%;
+  }
+
+  td, th {
+    padding: 5px;
+  }
+}
 h1 {
   font-size: 2.4rem;
   text-transform: uppercase;
   font-weight: 700;
   font-family: Verdana, Geneva, sans-serif;
-  margin-top: 10%; }
+  margin-top: 10%;
+}
 
 h2 {
-  font-size: 500;
+  font-size: 1.5rem;
   text-transform: uppercase;
   font-weight: 700;
   font-family: Verdana, Geneva, sans-serif;
-  color: white; }
+  color: white;
+  position: absolute;
+  bottom: 0;
+  background-color: orange;
+  padding: 10px 5px 10px 5px;
+}
 
 p {
   font-family: Verdana, Geneva, sans-serif;
   font-size: 1.3rem;
-  color: white; }
+  color: black;
+}
 
 .table-title {
   color: white;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+}
 
 .btn {
   position: relative;
   left: 50%;
   transform: translateX(-50%);
-  margin-top: 5%;
+  margin-top: 20px;
   background-color: orange;
-  font-weight: bold; }
+  font-weight: bold;
+}
 
 .news {
-  padding: 3% 20% 3% 3%; }
+  padding: 3% 20% 3% 3%;
+}
 
 tr {
-  line-height: 1rem; }
-
-td,
-th {
-  padding: 5px 5px; }
+  line-height: 1rem;
+}
 
 table.striped > tbody > tr:nth-child(even) {
-  background-color: rgba(68, 138, 255, 0.2); }
+  background-color: rgba(68, 138, 255, 0.2);
+}
 
 table.striped > tbody > tr:nth-child(odd) {
-  background-color: white; }
+  background-color: white;
+}
 
 .sponsoren {
-  width: 100%; }
+  width: 100%;
+}
 
 .footer-copyright {
-  height: 56px; }
-
-.footer {
-  margin: 0 0% 0 5%;
-  max-width: 1280px;
-  width: 90%;
-  position: absolute;
-  top: 50%;
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%); }
+  height: 56px;
+}
 
 .icon-block {
-  padding: 0 15px; }
+  padding: 0 15px;
+}
 
 .icon-block .material-icons {
-  font-size: inherit; }
+  font-size: inherit;
+}
 
 footer.page-footer {
-  margin: 0; }
+  margin: 0;
+}
 
 /*# sourceMappingURL=style.css.map */
