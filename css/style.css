@@ -6,90 +6,78 @@
  * Made By MaterializeCSS.com
  */
 .primary-color {
-  background: #448aff;
-}
+  background: #448aff; }
 
-body, html {
+body,
+html {
   height: 100%;
-  margin: 0;
-}
+  margin: 0; }
 
 nav {
   text-transform: uppercase;
-  font-weight: 800;
-}
+  font-weight: 800; }
 
 nav ul a,
 nav .brand-logo {
-  color: white;
-}
+  color: white; }
 
 p {
-  line-height: 2rem;
-}
+  line-height: 2rem; }
 
 .text-negative {
-  color: white;
-}
+  color: white; }
 
 .sidenav-trigger {
-  color: white;
-}
+  color: white; }
 
 .parallax-container {
   min-height: 580px;
   line-height: 0;
   height: auto;
-  color: rgba(255, 255, 255, 0.9);
-}
+  color: rgba(255, 255, 255, 0.9); }
 
 .parallax-container .section {
-  width: 100%;
-}
+  width: 100%; }
 
 @media only screen and (max-width: 992px) {
   .parallax-container .section {
     position: absolute;
-    top: 40%;
-  }
+    top: 40%; }
 
   #index-banner .section {
-    top: 10%;
-  }
-}
+    top: 10%; } }
 @media only screen and (max-width: 600px) {
   #index-banner .section {
-    top: 0;
-  }
-}
+    top: 0; } }
 .primary-color {
-  background: #3281a8;
-}
+  background: #3281a8; }
 
 /*# sourceMappingURL=style.css.map */
 nav .sidenav-trigger {
-  float: right;
-}
+  float: right; }
 
 .sidenav li > a {
   color: white;
-  font-weight: 800;
-}
+  font-weight: 800; }
 
 ul#nav-mobile {
   background-color: orange;
-  padding-top: 20%;
-}
+  padding-top: 20%; }
 
 .logo {
   height: 46px;
   margin-top: 5px;
-  margin-bottom: 5px;
-}
+  margin-bottom: 5px; }
 
 .results {
-  font-size: 4pt;
-}
+  font-size: 4pt; }
+
+.upcoming {
+  padding: 3%;
+  text-align: center; }
+
+.event-date {
+  font-size: 6rem; }
 
 .team-container {
   cursor: pointer;
@@ -100,22 +88,20 @@ ul#nav-mobile {
   position: relative;
   margin-bottom: 20px;
   display: inline-block;
-  background-position: center;
-}
+  background-position: center; }
 
-td, th {
+td,
+th {
   font-size: 1.3rem;
   padding: 15px;
-  border-radius: 0px;
-}
+  border-radius: 0px; }
 
 h1 {
   font-size: 2.4rem;
   text-transform: uppercase;
   font-weight: 700;
   font-family: Verdana, Geneva, sans-serif;
-  margin-top: 10%;
-}
+  margin-top: 10%; }
 
 h6 {
   font-size: 2.4rem;
@@ -123,8 +109,7 @@ h6 {
   font-weight: 700;
   font-family: Verdana, Geneva, sans-serif;
   margin-top: 20px;
-  color: white;
-}
+  color: white; }
 
 h2 {
   font-size: 1.5rem;
@@ -135,77 +120,62 @@ h2 {
   position: absolute;
   bottom: 0;
   background-color: orange;
-  padding: 10px 5px 10px 5px;
-}
+  padding: 10px 5px 10px 5px; }
 
 p {
   font-family: Verdana, Geneva, sans-serif;
   font-size: 1.3rem;
-  color: black;
-}
+  color: black; }
 
 .table-title {
   color: white;
-  text-transform: uppercase;
-}
+  text-transform: uppercase; }
 
 .btn {
   position: relative;
   margin-top: 20px;
   background-color: orange;
-  font-weight: bold;
-}
+  font-weight: bold; }
 
 .news {
   padding: 25px 100px 25px 25px;
   width: calc(50% - 20px);
   display: inline-block;
-  margin-bottom: 20px;
-}
+  margin-bottom: 20px; }
 
 .flex-container {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  flex-wrap: wrap;
-}
+  flex-wrap: wrap; }
 
 .button-wrap {
-  text-align: center;
-}
+  text-align: center; }
 
 table.striped > tbody > tr:nth-child(even) {
-  background-color: rgba(68, 138, 255, 0.2);
-}
+  background-color: rgba(68, 138, 255, 0.2); }
 
 table.striped > tbody > tr:nth-child(odd) {
-  background-color: white;
-}
+  background-color: white; }
 
 .sponsoren {
-  width: 100%;
-}
+  width: 100%; }
 
 .footer-copyright {
-  height: 56px;
-}
+  height: 56px; }
 
 .icon-block {
-  padding: 0 15px;
-}
+  padding: 0 15px; }
 
 .icon-block .material-icons {
-  font-size: inherit;
-}
+  font-size: inherit; }
 
 footer {
   height: auto;
-  margin-top: 50px;
-}
+  margin-top: 50px; }
 
 footer.page-footer {
-  margin: 0;
-}
+  margin: 0; }
 
 /* The hero image */
 .hero-image {
@@ -217,8 +187,7 @@ footer.page-footer {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  position: relative;
-}
+  position: relative; }
 
 /* Place text in the middle of the image */
 .hero-text {
@@ -227,37 +196,30 @@ footer.page-footer {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  color: white;
-}
+  color: white; }
 
 @media only screen and (max-width: 768px) {
   .team-container {
     width: calc(50% - 20px);
-    height: 200px;
-  }
+    height: 200px; }
 
-  td, th {
-    padding: 10px;
-  }
+  td,
+  th {
+    padding: 10px; }
 
   .hero-image {
-    height: 50%;
-  }
-}
+    height: 50%; } }
 @media only screen and (max-width: 576px) {
   .team-container {
-    width: 100%;
-  }
+    width: 100%; }
 
-  td, th {
+  td,
+  th {
     font-size: 10px;
-    padding: 5px;
-  }
+    padding: 5px; }
 
   .news {
     width: 100%;
-    padding-right: 25px;
-  }
-}
+    padding-right: 25px; } }
 
 /*# sourceMappingURL=style.css.map */

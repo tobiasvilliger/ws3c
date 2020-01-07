@@ -16,17 +16,19 @@ $medium: 500;
 $small: 1.3rem;
 $regular: 1.5rem;
 $large: 2.4rem;
+$extra-large: 6rem;
 
 .primary-color {
   background: $primary-color;
 }
-body, html {
+body,
+html {
   height: 100%;
   margin: 0;
 }
 nav {
-    text-transform: uppercase;
-    font-weight: 800;
+  text-transform: uppercase;
+  font-weight: 800;
 }
 
 nav ul a,
@@ -102,6 +104,15 @@ ul#nav-mobile {
   font-size: 4pt;
 }
 
+.upcoming {
+  padding: 3%;
+  text-align: center;
+}
+
+.event-date {
+  font-size: $extra-large;
+}
+
 .team-container {
   cursor: pointer;
   width: calc(50% - 20px);
@@ -114,12 +125,12 @@ ul#nav-mobile {
   background-position: center;
 }
 
-td, th {
-    font-size: $small;
-    padding: 15px;
-    border-radius: 0px;
+td,
+th {
+  font-size: $small;
+  padding: 15px;
+  border-radius: 0px;
 }
-
 
 h1 {
   font-size: $large;
@@ -137,7 +148,6 @@ h6 {
   margin-top: 20px;
   color: white;
 }
-
 
 h2 {
   font-size: $regular;
@@ -221,7 +231,8 @@ footer.page-footer {
 /* The hero image */
 .hero-image {
   /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('volleyball_hero.jpg');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("volleyball_hero.jpg");
 
   /* Set a specific height */
   height: 80%;
@@ -243,36 +254,34 @@ footer.page-footer {
   color: white;
 }
 
-
 @media only screen and (max-width: 768px) {
-.team-container {
-  width: calc(50% - 20px);
-  height: 200px;
-}
+  .team-container {
+    width: calc(50% - 20px);
+    height: 200px;
+  }
 
-td, th {
+  td,
+  th {
     padding: 10px;
-}
+  }
 
-.hero-image {
-  height: 50%;
-}
+  .hero-image {
+    height: 50%;
+  }
 }
 
 @media only screen and (max-width: 576px) {
   .team-container {
     width: 100%;
-
   }
-  td, th {
-      font-size: 10px;
-      padding: 5px;
+  td,
+  th {
+    font-size: 10px;
+    padding: 5px;
   }
 
   .news {
     width: 100%;
     padding-right: 25px;
-
   }
-
 }
