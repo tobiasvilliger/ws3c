@@ -147,7 +147,8 @@ p {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  flex-wrap: wrap; }
+  flex-wrap: wrap;
+  align-items: center; }
 
 .button-wrap {
   text-align: center; }
@@ -159,7 +160,9 @@ table.striped > tbody > tr:nth-child(odd) {
   background-color: white; }
 
 .sponsoren {
-  width: 100%; }
+  display: inline-block;
+  max-width: 80%;
+  margin: auto; }
 
 .footer-copyright {
   height: 56px; }
