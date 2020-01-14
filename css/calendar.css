@@ -238,7 +238,7 @@
     #calendarWidget .prev-.salmon #calendar #nextMt {
       color: #626972;
       position: absolute;
-      top: 2.5em;
+      top: 2em;
       font-weight: 700;
       font-size: 1.5em;
       z-index: 3; }
@@ -272,11 +272,14 @@
         width: 100%; }
         #calendarWidget .salmon #calendar #months-cont #months .month,
         #calendarWidget .prev-.salmon #calendar #months-cont #months .month {
+          font-family: Verdana, Geneva, sans-serif;
+          font-size: 1.3rem;
+          color: black;
           width: 100%;
           font-size: 1em;
           font-weight: 700;
           text-transform: uppercase;
-          color: #1636e1;
+          color: #448aff;
           display: inline-block;
           text-align: center; }
           #calendarWidget .salmon #calendar #months-cont #months .month:first-child,
@@ -826,7 +829,7 @@
     #calendarWidget .prev-.dkpink #calendar #nextMt {
       color: #626972;
       position: absolute;
-      top: 2.5em;
+      top: 2em;
       font-weight: 700;
       font-size: 1.5em;
       z-index: 3; }
@@ -860,11 +863,14 @@
         width: 100%; }
         #calendarWidget .dkpink #calendar #months-cont #months .month,
         #calendarWidget .prev-.dkpink #calendar #months-cont #months .month {
+          font-family: Verdana, Geneva, sans-serif;
+          font-size: 1.3rem;
+          color: black;
           width: 100%;
           font-size: 1em;
           font-weight: 700;
           text-transform: uppercase;
-          color: #1636e1;
+          color: #448aff;
           display: inline-block;
           text-align: center; }
           #calendarWidget .dkpink #calendar #months-cont #months .month:first-child,
@@ -1414,7 +1420,7 @@
     #calendarWidget .prev-.red #calendar #nextMt {
       color: #626972;
       position: absolute;
-      top: 2.5em;
+      top: 2em;
       font-weight: 700;
       font-size: 1.5em;
       z-index: 3; }
@@ -1448,11 +1454,14 @@
         width: 100%; }
         #calendarWidget .red #calendar #months-cont #months .month,
         #calendarWidget .prev-.red #calendar #months-cont #months .month {
+          font-family: Verdana, Geneva, sans-serif;
+          font-size: 1.3rem;
+          color: black;
           width: 100%;
           font-size: 1em;
           font-weight: 700;
           text-transform: uppercase;
-          color: #1636e1;
+          color: #448aff;
           display: inline-block;
           text-align: center; }
           #calendarWidget .red #calendar #months-cont #months .month:first-child,
@@ -2002,7 +2011,7 @@
     #calendarWidget .prev-.redorg #calendar #nextMt {
       color: #626972;
       position: absolute;
-      top: 2.5em;
+      top: 2em;
       font-weight: 700;
       font-size: 1.5em;
       z-index: 3; }
@@ -2036,11 +2045,14 @@
         width: 100%; }
         #calendarWidget .redorg #calendar #months-cont #months .month,
         #calendarWidget .prev-.redorg #calendar #months-cont #months .month {
+          font-family: Verdana, Geneva, sans-serif;
+          font-size: 1.3rem;
+          color: black;
           width: 100%;
           font-size: 1em;
           font-weight: 700;
           text-transform: uppercase;
-          color: #1636e1;
+          color: #448aff;
           display: inline-block;
           text-align: center; }
           #calendarWidget .redorg #calendar #months-cont #months .month:first-child,
@@ -2590,7 +2602,7 @@
     #calendarWidget .prev-.orange #calendar #nextMt {
       color: #626972;
       position: absolute;
-      top: 2.5em;
+      top: 2em;
       font-weight: 700;
       font-size: 1.5em;
       z-index: 3; }
@@ -2624,11 +2636,14 @@
         width: 100%; }
         #calendarWidget .orange #calendar #months-cont #months .month,
         #calendarWidget .prev-.orange #calendar #months-cont #months .month {
+          font-family: Verdana, Geneva, sans-serif;
+          font-size: 1.3rem;
+          color: black;
           width: 100%;
           font-size: 1em;
           font-weight: 700;
           text-transform: uppercase;
-          color: #1636e1;
+          color: #448aff;
           display: inline-block;
           text-align: center; }
           #calendarWidget .orange #calendar #months-cont #months .month:first-child,
@@ -3178,7 +3193,7 @@
     #calendarWidget .prev-.orgylw #calendar #nextMt {
       color: #626972;
       position: absolute;
-      top: 2.5em;
+      top: 2em;
       font-weight: 700;
       font-size: 1.5em;
       z-index: 3; }
@@ -3212,11 +3227,14 @@
         width: 100%; }
         #calendarWidget .orgylw #calendar #months-cont #months .month,
         #calendarWidget .prev-.orgylw #calendar #months-cont #months .month {
+          font-family: Verdana, Geneva, sans-serif;
+          font-size: 1.3rem;
+          color: black;
           width: 100%;
           font-size: 1em;
           font-weight: 700;
           text-transform: uppercase;
-          color: #1636e1;
+          color: #448aff;
           display: inline-block;
           text-align: center; }
           #calendarWidget .orgylw #calendar #months-cont #months .month:first-child,
@@ -3766,7 +3784,7 @@
     #calendarWidget .prev-.yellow #calendar #nextMt {
       color: #626972;
       position: absolute;
-      top: 2.5em;
+      top: 2em;
       font-weight: 700;
       font-size: 1.5em;
       z-index: 3; }
@@ -3800,11 +3818,14 @@
         width: 100%; }
         #calendarWidget .yellow #calendar #months-cont #months .month,
         #calendarWidget .prev-.yellow #calendar #months-cont #months .month {
+          font-family: Verdana, Geneva, sans-serif;
+          font-size: 1.3rem;
+          color: black;
           width: 100%;
           font-size: 1em;
           font-weight: 700;
           text-transform: uppercase;
-          color: #1636e1;
+          color: #448aff;
           display: inline-block;
           text-align: center; }
           #calendarWidget .yellow #calendar #months-cont #months .month:first-child,
@@ -4354,7 +4375,7 @@
     #calendarWidget .prev-.green #calendar #nextMt {
       color: #626972;
       position: absolute;
-      top: 2.5em;
+      top: 2em;
       font-weight: 700;
       font-size: 1.5em;
       z-index: 3; }
@@ -4388,11 +4409,14 @@
         width: 100%; }
         #calendarWidget .green #calendar #months-cont #months .month,
         #calendarWidget .prev-.green #calendar #months-cont #months .month {
+          font-family: Verdana, Geneva, sans-serif;
+          font-size: 1.3rem;
+          color: black;
           width: 100%;
           font-size: 1em;
           font-weight: 700;
           text-transform: uppercase;
-          color: #1636e1;
+          color: #448aff;
           display: inline-block;
           text-align: center; }
           #calendarWidget .green #calendar #months-cont #months .month:first-child,
@@ -4942,7 +4966,7 @@
     #calendarWidget .prev-.aqua #calendar #nextMt {
       color: #626972;
       position: absolute;
-      top: 2.5em;
+      top: 2em;
       font-weight: 700;
       font-size: 1.5em;
       z-index: 3; }
@@ -4976,11 +5000,14 @@
         width: 100%; }
         #calendarWidget .aqua #calendar #months-cont #months .month,
         #calendarWidget .prev-.aqua #calendar #months-cont #months .month {
+          font-family: Verdana, Geneva, sans-serif;
+          font-size: 1.3rem;
+          color: black;
           width: 100%;
           font-size: 1em;
           font-weight: 700;
           text-transform: uppercase;
-          color: #1636e1;
+          color: #448aff;
           display: inline-block;
           text-align: center; }
           #calendarWidget .aqua #calendar #months-cont #months .month:first-child,
@@ -5530,7 +5557,7 @@
     #calendarWidget .prev-.teal #calendar #nextMt {
       color: #626972;
       position: absolute;
-      top: 2.5em;
+      top: 2em;
       font-weight: 700;
       font-size: 1.5em;
       z-index: 3; }
@@ -5564,11 +5591,14 @@
         width: 100%; }
         #calendarWidget .teal #calendar #months-cont #months .month,
         #calendarWidget .prev-.teal #calendar #months-cont #months .month {
+          font-family: Verdana, Geneva, sans-serif;
+          font-size: 1.3rem;
+          color: black;
           width: 100%;
           font-size: 1em;
           font-weight: 700;
           text-transform: uppercase;
-          color: #1636e1;
+          color: #448aff;
           display: inline-block;
           text-align: center; }
           #calendarWidget .teal #calendar #months-cont #months .month:first-child,
@@ -6118,7 +6148,7 @@
     #calendarWidget .prev-.sltbl #calendar #nextMt {
       color: #626972;
       position: absolute;
-      top: 2.5em;
+      top: 2em;
       font-weight: 700;
       font-size: 1.5em;
       z-index: 3; }
@@ -6152,11 +6182,14 @@
         width: 100%; }
         #calendarWidget .sltbl #calendar #months-cont #months .month,
         #calendarWidget .prev-.sltbl #calendar #months-cont #months .month {
+          font-family: Verdana, Geneva, sans-serif;
+          font-size: 1.3rem;
+          color: black;
           width: 100%;
           font-size: 1em;
           font-weight: 700;
           text-transform: uppercase;
-          color: #1636e1;
+          color: #448aff;
           display: inline-block;
           text-align: center; }
           #calendarWidget .sltbl #calendar #months-cont #months .month:first-child,
@@ -6706,7 +6739,7 @@
     #calendarWidget .prev-.pwdbl #calendar #nextMt {
       color: #626972;
       position: absolute;
-      top: 2.5em;
+      top: 2em;
       font-weight: 700;
       font-size: 1.5em;
       z-index: 3; }
@@ -6740,11 +6773,14 @@
         width: 100%; }
         #calendarWidget .pwdbl #calendar #months-cont #months .month,
         #calendarWidget .prev-.pwdbl #calendar #months-cont #months .month {
+          font-family: Verdana, Geneva, sans-serif;
+          font-size: 1.3rem;
+          color: black;
           width: 100%;
           font-size: 1em;
           font-weight: 700;
           text-transform: uppercase;
-          color: #1636e1;
+          color: #448aff;
           display: inline-block;
           text-align: center; }
           #calendarWidget .pwdbl #calendar #months-cont #months .month:first-child,
@@ -7069,10 +7105,10 @@
 #calendarWidget .blue,
 #calendarWidget .prev-.blue {
   font-family: "Monserrat", sans-serif;
-  background: #1636e1; }
+  background: #448aff; }
   #calendarWidget .blue.blue,
   #calendarWidget .prev-.blue.blue {
-    background: #1636e1;
+    background: #448aff;
     transition: all 0.2s ease-in-out; }
   #calendarWidget .blue #calendar,
   #calendarWidget .prev-.blue #calendar {
@@ -7097,7 +7133,7 @@
       padding: 1em 1.5em;
       width: 100%;
       background-size: 200% 100%;
-      background-image: linear-gradient(to left, #1636e1 50%, transparent 50%);
+      background-image: linear-gradient(to left, #448aff 50%, transparent 50%);
       transition: background-position 0.1s ease-in-out; }
       #calendarWidget .blue #calendar .input a:hover,
       #calendarWidget .prev-.blue #calendar .input a:hover {
@@ -7111,7 +7147,7 @@
       left: 50%;
       top: 50%;
       border-radius: 50%;
-      border: 0.1em solid #1636e1;
+      border: 0.1em solid #448aff;
       height: 1.4em;
       width: 1.4em;
       margin-left: -0.8em;
@@ -7124,12 +7160,12 @@
         color: #29323f !important; }
       #calendarWidget .blue #calendar .has-event.expanded:after,
       #calendarWidget .prev-.blue #calendar .has-event.expanded:after {
-        background: #1636e1;
+        background: #448aff;
         border-radius: 50%;
         z-index: -1; }
     #calendarWidget .blue #calendar #color-picker,
     #calendarWidget .prev-.blue #calendar #color-picker {
-      background: #1636e1;
+      background: #448aff;
       width: 0.65em;
       height: 0.65em;
       position: absolute;
@@ -7294,7 +7330,7 @@
     #calendarWidget .prev-.blue #calendar #nextMt {
       color: #626972;
       position: absolute;
-      top: 2.5em;
+      top: 2em;
       font-weight: 700;
       font-size: 1.5em;
       z-index: 3; }
@@ -7328,11 +7364,14 @@
         width: 100%; }
         #calendarWidget .blue #calendar #months-cont #months .month,
         #calendarWidget .prev-.blue #calendar #months-cont #months .month {
+          font-family: Verdana, Geneva, sans-serif;
+          font-size: 1.3rem;
+          color: black;
           width: 100%;
           font-size: 1em;
           font-weight: 700;
           text-transform: uppercase;
-          color: #1636e1;
+          color: #448aff;
           display: inline-block;
           text-align: center; }
           #calendarWidget .blue #calendar #months-cont #months .month:first-child,
@@ -7359,7 +7398,7 @@
     float: left;
     padding: 0.5em 0;
     font-size: 0.8em;
-    background: #1636e1;
+    background: #448aff;
     color: #29323f;
     height: 1.5em;
     width: 1.5em;
@@ -7389,7 +7428,7 @@
     padding-bottom: 14%;
     margin: 3%; }
     #calendarWidget #colors.show .color#blue {
-      background: #1636e1;
+      background: #448aff;
       transform-origin: center; }
 @-webkit-keyframes fadeIn {
   0% {
@@ -7882,7 +7921,7 @@
     #calendarWidget .prev-.purple #calendar #nextMt {
       color: #626972;
       position: absolute;
-      top: 2.5em;
+      top: 2em;
       font-weight: 700;
       font-size: 1.5em;
       z-index: 3; }
@@ -7916,11 +7955,14 @@
         width: 100%; }
         #calendarWidget .purple #calendar #months-cont #months .month,
         #calendarWidget .prev-.purple #calendar #months-cont #months .month {
+          font-family: Verdana, Geneva, sans-serif;
+          font-size: 1.3rem;
+          color: black;
           width: 100%;
           font-size: 1em;
           font-weight: 700;
           text-transform: uppercase;
-          color: #1636e1;
+          color: #448aff;
           display: inline-block;
           text-align: center; }
           #calendarWidget .purple #calendar #months-cont #months .month:first-child,
@@ -8470,7 +8512,7 @@
     #calendarWidget .prev-.dkprpl #calendar #nextMt {
       color: #626972;
       position: absolute;
-      top: 2.5em;
+      top: 2em;
       font-weight: 700;
       font-size: 1.5em;
       z-index: 3; }
@@ -8504,11 +8546,14 @@
         width: 100%; }
         #calendarWidget .dkprpl #calendar #months-cont #months .month,
         #calendarWidget .prev-.dkprpl #calendar #months-cont #months .month {
+          font-family: Verdana, Geneva, sans-serif;
+          font-size: 1.3rem;
+          color: black;
           width: 100%;
           font-size: 1em;
           font-weight: 700;
           text-transform: uppercase;
-          color: #1636e1;
+          color: #448aff;
           display: inline-block;
           text-align: center; }
           #calendarWidget .dkprpl #calendar #months-cont #months .month:first-child,

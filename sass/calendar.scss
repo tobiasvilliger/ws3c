@@ -18,6 +18,10 @@ $dkgray: #29323f;
 $lavender: #838ecf;
 $white: #fff;
 $black: #000;
+$blue: #448aff;
+
+$small: 1.3rem;
+$verdana: Verdana, Geneva, sans-serif;
 
 #calendarWidget {
   @mixin hideOrShow($initVal, $finVal) {
@@ -233,7 +237,7 @@ $black: #000;
         #nextMt {
           color: $gray;
           position: absolute;
-          top: 2.5em;
+          top: 2em;
           font-weight: 700;
           font-size: 1.5em;
           z-index: 3;
@@ -263,6 +267,9 @@ $black: #000;
             left: 0;
             width: 100%;
             .month {
+              font-family: $verdana;
+              font-size: $small;
+              color: black;
               width: 100%;
               font-size: 1em;
               font-weight: 700;
