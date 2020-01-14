@@ -24,6 +24,7 @@ $small: 1.3rem;
 $verdana: Verdana, Geneva, sans-serif;
 
 #calendarWidget {
+  margin: 40px 0;
   @mixin hideOrShow($initVal, $finVal) {
     @-webkit-keyframes hideOrShow {
       0% {
